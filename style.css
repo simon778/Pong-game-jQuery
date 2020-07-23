@@ -1,0 +1,91 @@
+h1{
+	text-align:center;
+	
+}
+#game{
+	height:450px;
+	width:700px;
+	background-color:black;
+	margin:auto;
+	position:relative;
+}
+
+#user-paddle{
+	height: 150px;
+	width:40px;
+	background-color:red;
+	position:absolute;
+
+}
+
+#paddle{
+	height: 150px;
+	width:40px;
+	background-color:green;
+	position:absolute;
+	right:0px;
+}
+
+#ball{
+	height:30px;
+	width:30px;
+	background-color:white;
+	border-radius:50%;
+	position:absolute;
+	top:200px;
+	left:300px;
+}
+
+#game-over-screen{
+	height:150px;
+	width:400px;
+	margin: auto;
+	display:none;
+	background-color: blue;
+	color:white;
+	text-align:center;
+	font-size:50px;
+	padding:10px;
+	position: relative;
+	top: 140px;
+	}
+#start-screen{
+	height:150px;
+	width:400px;
+	margin: auto;
+	display:block;
+	background-color: blue;
+	color:white;
+	text-align:center;
+	font-size:30px;
+	padding:10px;
+	position: relative;
+	top: 140px;
+	}
+#winner{
+		font-size:30px;
+	}
+#restart-btn{
+		margin:20px auto;
+		background-color: yellow;
+		height:50px;
+		width:200px;
+		font-size:20px;
+		cursor:pointer;
+		padding:10px;
+		display:none;
+	}
+#start-btn{
+		margin:30px auto 0 auto;
+		background-color: yellow;
+		height:50px;
+		width:200px;
+		font-size:20px;
+		cursor:pointer;
+		padding:10px;
+		display:block;
+	}
+#instructions{
+		margin-top:10px;
+		font-size:20px;
+	}
